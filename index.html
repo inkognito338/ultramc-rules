@@ -216,11 +216,32 @@
 
         /* Медиа-запросы для адаптации на мобильных устройствах */
         @media (max-width: 768px) {
-            .panel {
-                margin: 20px 0;
-                margin-left: 0;
-            }
+        body {
+            background: linear-gradient(135deg, #95a5a6, #34495e);
+            color: white;
         }
+
+        .panel {
+            width: 100%;
+            max-width: 100%;
+            margin: 20px 0;
+        }
+
+        .panel-heading {
+            padding: 10px;
+        }
+
+        .panel-body {
+            max-height: none;
+            overflow: visible;
+            padding: 10px;
+            opacity: 1;
+        }
+
+        .navbar.navbar-theme-dark {
+            position: static;
+        }
+    }
     </style>
     <script>
         var rulesData = [
