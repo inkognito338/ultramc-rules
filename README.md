@@ -1,1 +1,0 @@
-# ultramc-rules
